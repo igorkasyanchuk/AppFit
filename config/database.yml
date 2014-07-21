@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+  database: appfit_development
+
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+  database: appfit_test
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: appfit_production
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
